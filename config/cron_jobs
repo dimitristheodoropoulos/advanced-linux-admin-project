@@ -1,0 +1,3 @@
+#Cron Jobs (cron_jobs): You could include a file here with the configuration of various cron jobs to automate tasks like backups or system checks.
+0 3 * * * /path/to/backup.sh
+0 * * * * /path/to/monitor.sh

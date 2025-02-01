@@ -1,0 +1,40 @@
+# Logs
+logs/
+*.log
+
+# OS-generated files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+desktop.ini       # Windows
+
+# Temporary files
+*.tmp
+*.swp             # Vim swap files
+*~                # Backup files from editors
+
+# Docker files
+*.pid
+*.sock
+.env              # Environment variable files (if used)
+docker-compose.override.yml
+
+# Bash history (if accidentally added)
+.bash_history
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Build artifacts (if you compile anything)
+build/
+dist/
+
+# Python (if using scripts with Python)
+__pycache__/
+*.pyc
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.save
